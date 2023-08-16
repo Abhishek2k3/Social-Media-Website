@@ -6,9 +6,6 @@ const path = require('path')
 const app = express()
 const port = process.env.PORT || 3000
 
-//username: sumansaw81
-//pass: BwkdJxZYlzmpl6Mb
-//url: mongodb+srv://sumansaw81:<password>@cluster0.ehjvjts.mongodb.net/?retryWrites=true&w=majority
 
 
 mongoose.connect(MONGOURI)
